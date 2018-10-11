@@ -4,7 +4,7 @@
 from distutils.core import setup
 
 setup(
-    name="Hello_Bot",
+    name="Buildbot_TCS",
     license="MIT",
     version="1.0.0",
     description="Sample program to test CI engines",
