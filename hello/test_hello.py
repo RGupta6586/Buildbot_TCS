@@ -21,7 +21,7 @@ class TestHello(unittest.TestCase):
         self.assertEqual(hello('bot'), 'hello bot')
 
     def test_fun(self):
-        """sample test"""
+        """sample test with additional changes"""
         self.assertEqual(hello('fun'), 'hello fun')
 
 
