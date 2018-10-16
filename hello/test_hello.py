@@ -12,5 +12,5 @@ class TestHello(unittest.TestCase):
         self.assertEqual(hello('world1'), 'hello world1')
 
     def test_world_unicode(self):
-"""sample test with unicode"""
+        """sample test with unicode"""
         self.assertEqual(hello(u'world'), u'hello world')
