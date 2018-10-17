@@ -1,7 +1,7 @@
 """sample test"""
 import unittest
 
-from hello import test
+from hello import hello
 
 
 class NewTest(unittest.TestCase):
