@@ -1,4 +1,4 @@
-"""hello world module"""
+"""TCS module"""
 
 
 #def hello(who):
@@ -6,7 +6,7 @@
 #    return "hello " + who
 
 
-def test(d):
+def tcs(d):
     """TCS test function"""
     return d
 
