@@ -1,12 +1,15 @@
 """sample test"""
+
+'''
 import unittest
 
 from hello import hello
 
 
 class TestHello(unittest.TestCase):
+'''
     """sample test"""
-
+'''
     def test_world(self):
         """sample test"""
         self.assertEqual(hello('world1'), 'hello world1')
@@ -27,4 +30,4 @@ class TestHello(unittest.TestCase):
         
         self.assertEqual(hello('welcome'), 'hello welcome')
 
-
+'''
