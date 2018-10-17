@@ -1,7 +1,7 @@
 """sample test"""
 import unittest
 
-from hello import tcs
+from hello import test
 
 
 class NewTest(unittest.TestCase):
@@ -11,4 +11,4 @@ class NewTest(unittest.TestCase):
         """sample test"""
         a = 2;
         b = 3;
-        self.assertEqual(tcs, (a+b))
+        self.assertEqual(test(a+b), 5)

@@ -6,6 +6,7 @@ def hello(who):
     return "hello " + who
 
 
-def test(tcs):
+def test(d):
      """TCS test function"""
-     return 5
+     
+     return d
