@@ -7,5 +7,6 @@ def hello(who):
 
 
 def test(d):
-     """TCS test function"""
+    """TCS test function"""
     return d
+
