@@ -4,7 +4,7 @@ import unittest
 from hello import hello
 
 
-class TestHello(unittest.TestCase):
+class TestHelloTcs(unittest.TestCase):
     """sample test"""
 
     def test_world(self):
@@ -23,6 +23,3 @@ class TestHello(unittest.TestCase):
         """sample test with additional changes"""
         self.assertEqual(hello('fun'), 'hello fun')
 
-    def test_new(self):
-        
-        self.assertEqual(hello('welcome'), 'hello welcome')
